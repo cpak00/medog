@@ -28,4 +28,5 @@ Calculate|angle|Calculate the pulse length,return pulse length
     * Connect(name, key)
 
 * class Channel
-    * Write(str) | Read(":",read time)
+    * Write(str)
+    * Read(":",read time)
