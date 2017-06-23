@@ -24,5 +24,6 @@ Function|Argument|Introduction
 > class Ssh2
 >> Connect(name, key)
 > class Channel
+---
 >> Write(str)
 >> Read(":",read time)
