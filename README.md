@@ -18,11 +18,14 @@ pca9685_setmk()|address of the device, id of the gpio, pulse length|make the ser
 ### Servo.h
 Function|Argument|Introduction
 ---|---|---
+Init|address of the pca9685(default 0x40|return address of the device
+SetAngle|address of the device, id of the servo, angle|set servo's angle
+Calculate|angle|Calculate the pulse length,return pulse length
 ---
 
 ### ssh2.h
-> class Ssh2
->> Connect(name, key)
----
-> class Channel
->> Write(str) | Read(":",read time)
+* class Ssh2
+    * Connect(name, key)
+
+* class Channel
+    * Write(str) | Read(":",read time)
