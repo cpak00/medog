@@ -2,11 +2,11 @@
 Basic Code for Mechanic Dog Project
 
 ## How to use these code
-1.sudo apt-get install wiringPi
-2.git clone https://github.com/cpak00/medog
-3.include "Servo.h" in your source code
-4.use function Init() to get the address of device pca9685
-5.use function SetAngle(addr,id,angle) to set the angle of a servo
+1.sudo apt-get install wiringPi</br>
+2.git clone https://github.com/cpak00/medog</br>
+3.include "Servo.h" in your source code</br>
+4.use function Init() to get the address of device pca9685</br>
+5.use function SetAngle(addr,id,angle) to set the angle of a servo</br>
 
 ## Code List
 * PCA9685_wiringPi.h
