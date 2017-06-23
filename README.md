@@ -25,5 +25,4 @@ Function|Argument|Introduction
 >> Connect(name, key)
 ---
 > class Channel
->> Write(str)
->> Read(":",read time)
+>> Write(str) | Read(":",read time)
