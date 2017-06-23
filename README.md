@@ -23,7 +23,7 @@ Function|Argument|Introduction
 ### ssh2.h
 > class Ssh2
 >> Connect(name, key)
-> class Channel
 ---
+> class Channel
 >> Write(str)
 >> Read(":",read time)
