@@ -1,5 +1,5 @@
 # medog </br>
-Basic Code for Mechanic Dog Project
+Basic Code for Mechanical Dog Project
 
 ## How to use these code
 1.sudo apt-get install wiringPi</br>
