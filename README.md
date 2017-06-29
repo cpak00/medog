@@ -47,7 +47,7 @@ Calculate|angle|Calculate the pulse length,return pulse length
 ### Servo.py
 Function|Argument|Introduction
 ---|---|---
-init()|address of the pca9685(default 0x40)|return the description of the device
+init|address of the pca9685(default 0x40)|return the description of the device
 set_angle|address of the device, id of the gpio, pulse length|make the servo turn(by mk but not angle)
 angle_map|angle|Calculate the pulse length,return pulse length
 
