@@ -9,12 +9,16 @@ Basic Code for Mechanical Dog Project
 5.use function SetAngle(addr,id,angle) to set the angle of a servo</br>
 
 ## Code List
+cpp/：
 * PCA9685_wiringPi.h
 * Servo.h
 * ssh2.h
 ---
+python/：
+* Servo.py
+* test.py
 
-## Code Illustration
+## cpp
 
 ### PCA9685_wiringPi.h
 Function|Argument|Introduction
@@ -37,3 +41,15 @@ Calculate|angle|Calculate the pulse length,return pulse length
 * class Channel
     * Write(str)
     * Read(":",read time)
+
+## python
+
+### Servo.py
+Function|Argument|Introduction
+---|---|---
+init()|address of the pca9685(default 0x40)|return the description of the device
+set_angle|address of the device, id of the gpio, pulse length|make the servo turn(by mk but not angle)
+angle_map|angle|Calculate the pulse length,return pulse length
+
+### test.py
+It is an test code, enter the angle, and then the servo connect to 0 will turn to the angle
